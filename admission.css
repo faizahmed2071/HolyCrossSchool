@@ -1,0 +1,221 @@
+*{
+    box-sizing:content-box;
+
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.page{
+    background: rgb(128,128,128);
+background: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(196,210,210,1) 20%, rgba(196,210,210,1) 80%, rgba(128,128,128,1) 100%);
+}
+.logo{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.adm img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.adm{
+    background-color: white;
+    
+}
+.home{
+    width: 30px;
+    padding-left: 15px;
+}
+nav{
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+nav a{
+    color: honeydew;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    border: solid white 1px;
+    border-radius: 15px;
+    
+}
+h2{
+    text-align: center;
+}
+.section-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+#admission1{
+    
+    margin: 10px;
+    border-radius: 10px;
+    min-width:50%;
+    max-width: 50%;
+    overflow: hidden;
+}
+.admission2{
+    
+    margin: 10px;
+    border-radius: 10px;
+    min-width: 45%;
+    max-width: 45%;
+    overflow: hidden;
+}
+
+h2 span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+}
+.para{
+    margin: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+}
+hr{
+    height: 1px;
+    border: none;
+    background: rgb(0, 0, 0);
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+  .sm{
+      background-image: url(images/background.jpeg);
+      background-repeat: repeat-y;
+      background-position: center;
+      background-size: 100%;
+      background-attachment: fixed;
+      padding: 2px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+        
+    }
+
+
+  .sm-box{
+      border: solid white 2px;
+      border-radius: 8px;
+      padding: 10px 0px;
+      margin: 5px;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      overflow: hidden;
+
+    
+  }
+  .sm-h{
+    border:  solid white 1px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+  .sm-handle a{
+      border: solid white 2px;
+      border-radius: 50px;
+      color: white;
+      padding: 3px;
+      font-family: serif;
+      font-size: 25px;
+      font-weight: 700;
+      background-color: rgba(0, 0, 0, 0.308);
+      margin: 15px -7px;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;  
+      min-width: 100%;
+      text-decoration: none;
+    }
+    
+    .quick{
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+
+    }
+    .sm-handle a i{
+        margin: 5%;
+        min-width: 1%;
+    }
+    .yt-handle{
+        color: #FF0000;
+    }
+    .fb-handle{
+        color: #3b5998 ;
+    }
+    .reach{
+        padding: 5px;
+        font-size: 20px;
+    }
+    #reachus{
+        font-weight: 600;
+        
+    }
+    .end{
+        font-style: italic;
+        text-align: center;
+        color: white;
+    }
+    .reachbox{
+        height: 1px;
+        border: none;
+        background: rgb(255, 255, 255);
+        border-radius: 2px;
+    }
+    .my-sm a{
+        border: solid white 2px;
+        border-radius: 50px;
+        color: white;
+        padding: 10px;
+        font-family: serif;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: rgba(41, 41, 41, 0.637);
+        text-decoration: none;
+        margin: 5px 1px;
+  
+        
+      }
+      .my-sm a i{
+        margin: 5px;
+        min-width: 1%;
+      }
+      
+    
+      
+
