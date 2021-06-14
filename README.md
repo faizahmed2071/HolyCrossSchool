@@ -1,2 +1,2 @@
 # HolyCrossSchool
-Repo for UI code of H.C.S POC
+Repo for UI code of H.C.S POC with HTML+CSS
